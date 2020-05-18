@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="E2E suite" >
+  	<test name="Payment testing in Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.wirecard.e2e.tests.PaymentTest" />
+		</classes>
+	</test>
+</suite>

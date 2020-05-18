@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API suite">
+	<test name="Customer tests">
+		<classes>
+			<class name="com.wirecard.api.tests.CustomerAPITest" />
+		</classes>
+	</test>
+	<test name="Order tests">
+		<classes>
+			<class name="com.wirecard.api.tests.OrderAPITest" />
+		</classes>
+	</test>
+	<test name="Payment tests">
+		<classes>
+			<class name="com.wirecard.api.tests.PaymentAPITest" />
+		</classes>
+	</test>
+
+</suite>

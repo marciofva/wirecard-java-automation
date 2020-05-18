@@ -1,0 +1,13 @@
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+.classpath
+.project
+.settings
+
+# Report
+/allure-results/
+/test-output/
